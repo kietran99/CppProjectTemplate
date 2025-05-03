@@ -58,3 +58,11 @@ project "Placeholder"
         runtime "Release"
         optimize "On"
         symbols "Off"
+
+    usage "INTERFACE"
+        includedirs
+        {
+            "Public",
+        }
+
+    usage ""

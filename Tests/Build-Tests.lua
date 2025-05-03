@@ -25,12 +25,11 @@ project "Tests"
     includedirs
     {
         "Source",
-        "../Core/Public",
     }
 
-    links
+    uses
     {
-        
+        "Eagle",
     }
 
     targetdir ("../Binaries/" .. OutputDir .. "/%{prj.name}")
