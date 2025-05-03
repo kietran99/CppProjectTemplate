@@ -29,7 +29,7 @@ project "Tests"
 
     uses
     {
-        "Eagle",
+        "Placeholder",
     }
 
     targetdir ("../Binaries/" .. OutputDir .. "/%{prj.name}")
